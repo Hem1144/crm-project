@@ -1,7 +1,11 @@
-import "./App.css";
+import Searchbar from "./components/testingComponents/Searchbar";
 
-function App() {
-  return <>Hello</>;
-}
+const App = () => {
+  return (
+    <div>
+      <Searchbar />
+    </div>
+  );
+};
 
 export default App;

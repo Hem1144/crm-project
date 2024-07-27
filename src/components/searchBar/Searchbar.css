@@ -1,0 +1,40 @@
+.storybook-search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 2em;
+  padding: 10px 16px;
+  width: 20%;
+  box-sizing: border-box;
+  background-color: white;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.storybook-search-bar input {
+  border: none;
+  outline: none;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.storybook-search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0 10px;
+}
+
+.storybook-search-bar button img {
+  width: 20px;
+  height: 20px;
+}
+
+.storybook-search-bar:focus-within {
+  box-shadow:
+    0 0 0 2px #1ea7fd,
+    0 4px 6px rgba(13, 97, 194, 0.1);
+}
